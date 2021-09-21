@@ -14,7 +14,7 @@ _This website was last updated in March 2020 (around the start of the coronaviru
 
 
 ### Tools:
-The neural network will be built, tested, and evaluated using the `tensorflow.keras` library in Python. Because the training data (i.e., satellite images _with_ available road masks) are composed of ~6,200 satellite images (each with size 1024x1024 pixels, 3 RGB color channels) training with a GPU will likely be necessary; Google Colab will be used fo rhtis purpose.
+The neural network will be built, tested, and evaluated using the `tensorflow.keras` library in Python. Because the training data (i.e., satellite images _with_ available road masks) are composed of ~6,200 satellite images (each with size 1024 pixels &times; 1024 pixels &times; 3 color channels) training with a GPU will likely be necessary; Google Colab will be used for this purpose.
 
 Visualizations of the original satellite images and the resulting, extracted road masks will be created with the `matplotlib` package in Python.
 
