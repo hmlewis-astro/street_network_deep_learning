@@ -1,0 +1,15 @@
+# Ignore temp files from other editors
+~*
+
+# Ignore pycache
+*.DS_Store
+*.pyc
+.ipynb_checkpoints/
+
+# Ignore data backups
+deep_globe/
+data_backup/
+
+# Ignore powerpoint files
+final_pres/*.pptx
+
