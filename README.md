@@ -1,6 +1,6 @@
-# Street Networks from Satellite Images for Disaster Relief Networks
+# Road Maps from Satellite Images for Disaster Relief Networks
 
-This project was developed for the Feep Learning Fundamentals module of the Data Science and Machine Learning Bootcamp at Metis.
+This project was developed for the Deep Learning Fundamentals module of the Data Science and Machine Learning Bootcamp at Metis.
 
 The project proposal is available [here](https://github.com/hmlewis-astro/street_network_deep_learning/blob/main/proposal.md).
 
