@@ -14,10 +14,9 @@ _This website was last updated in March 2020 (around the start of the coronaviru
 
 
 ### Tools:
-_To scrape the Disney A to Z- website, the `requests` and `BeautifulSoup` packages in Python will be utilized, along with Selenium and ChromeDriver to allow each movie summary page to fully load before scraping. The scraped data will be stored in a `.csv` file, with rows corresponding to each movie. The data will be read in to Python and manipulated using the `pandas` package._
+The neural network will be built, tested, and evaluated using the `tensorflow.keras` library in Python. Because the training data (i.e., satellite images _with_ available road masks) are composed of ~6,200 satellite images (each with size 1024x1024 pixels, 3 RGB color channels) training with a GPU will likely be necessary; Google Colab will be used fo rhtis purpose.
 
-_The text processing libraries/tools in `scikit-learn` and `NLTK` will be used to clean and pre-process the movie summaries, including removing stopwords and handling special characters. These tools will also be used to tokenize, lemmatize, and vectorize the summaries, and represent the data as a document-term matrix. I will also use NMF/LDA for **topic modeling**. I plan to use the results of the topic modeling to build a very basic **recommendation system** to suggest movies similar in topic to a user's provided favorite Disney movie._
-
+Visualizations of the original satellite images and the resulting, extracted road masks will be created with the `matplotlib` package in Python.
 
 ### MVP:
 
