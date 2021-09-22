@@ -14,7 +14,7 @@ These data come from the Road Extraction Challenge in [DeepGlobe 2018: A Challen
 
 The images sample uniformly over rural and urban areas, different types of road surfaces (unpaved, paved, dirt roads), etc. and illumination conditions, the road density, and the structure of the street networks are diverse. The dataset was created by GIS experts, and the pixel-wise road segmentation masks were created by professional annotators.
 
-Given sufficient time, I will apply this neural network to images released by [Maxar's Open Data program](https://www.maxar.com/open-data/) from e.g., Hurricane Ida in New Orleans (Aug. 2021), the Oregon&mdash;Washington Fires (Sept. 2020), or the Beirut Explosion (Aug. 2020). The Maxar data provides archived images of each location prior to disaster, as well as up-to-date imagery of disaster zones collected soon after the onset of each event.
+Given sufficient time, I will apply this neural network to images released by [Maxar's Open Data program](https://www.maxar.com/open-data/) from e.g., Hurricane Ida in New Orleans (Aug. 2021), the Oregon&ndash;Washington Fires (Sept. 2020), or the Beirut Explosion (Aug. 2020). The Maxar data provides archived images of each location prior to disaster, as well as up-to-date imagery of disaster zones collected soon after the onset of each event.
 
 <!--We formulate the task of road extraction from satellite images as a binary classification problem. Each input is a satellite image. The solution is expected to predict a mask for the input (i.e., a binary image of the same height and width as the input with road and non-road pixel labels). (Demir et al. 2018)-->
 
