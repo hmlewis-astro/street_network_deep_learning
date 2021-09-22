@@ -11,7 +11,7 @@ deep_globe/
 data_backup/
 
 # Ignore API key files
-gaggle.json
+kaggle.json
 
 # Ignore powerpoint files
 final_pres/*.pptx
