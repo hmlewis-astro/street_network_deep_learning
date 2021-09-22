@@ -2,15 +2,19 @@
 ## Road Maps from Satellite Images for Disaster Relief Networks
 
 ### Question & Background:
-<!--_While traditional TV viewing has been dropping over the course of the coronavirus pandemic, video streaming via Netflix, Hulu, Prime Video, Disney+, YouTube, etc. has increased by more than 60% (Nielsen via [Variety](https://variety.com/2020/digital/news/coronavirus-quarantine-life-media-consumption-data-increase-1203535472/)). With (nearly) the entire Disney movie catalog available on Disney+, it has become much easier to binge-watch your favorite classic Disney animated films, Pixar, and Marvel movies. However, choosing a movie to watch becomes a much more difficult task when the opinions of two (or more!) people are involved._-->
+Remote satellite images are an extremely valuable resource in disaster zones, where maps and accessibility information are crucial for emergency response networks to delivery aid. Rather than relying on ground-based efforts to determine areas in most dire need of immediate aid, high-resolution satellite imagery can be used to identify impacted areas. However, disaster zones may span large land areas; meticulously searching satellite images by-hand can be time consuming and delay the dispatching of life-saving aid.
 
-In this project, I aim to **create a deep neural network to extract road maps from satellite images**.
+In these cases, deep learning can play an important role. Specifically, a neural net trained to extract road maps from satellite images can be applied to images taken before and after a disaster to identify roads that have become inaccessible following a disaster.
+
+In this project, I aim to **create a deep neural network to extract road maps from satellite images**. Given sufficient time, I will apply this neural network to images of disaster zones collected before and after the onset of major crisis events.
 
 
 ### Data description:
 These data come from the Road Extraction Challenge in [DeepGlobe 2018: A Challenge to Parse the Earth through Satellite Image](https://arxiv.org/pdf/1805.06561.pdf). The data are composed of ~6,200 satellite images _with_ available road masks for training, and an additional ~2,300 images (no road masks) for validation and testing, all of which are sampled from the [DigitalGlobe +Vivid Images](https://dg-cms-uploads-production.s3.amazonaws.com/uploads/document/file/2/DG_Basemap_Vivid_DS_1.pdf) dataset. Images are captured over Thailand, Indonesia, and India, and each image is 1024 pixels &times; 1024 pixels &times; 3 color channels (red, green, blue), with a pixel resolution of 0.5 m/pixel.
 
 The images sample uniformly over rural and urban areas, different types of road surfaces (unpaved, paved, dirt roads), etc. and illumination conditions, the road density, and the structure of the street networks are diverse. The dataset was created by GIS experts, and the pixel-wise road segmentation masks were created by professional annotators.
+
+Given sufficient time, I will apply this neural network to images released by [Maxar's Open Data program](https://www.maxar.com/open-data/) from e.g., Hurricane Ida in New Orleans (Aug. 2021), the Oregon&mdash;Washington Fires (Sept. 2020), or the Beirut Explosion (Aug. 2020). The Maxar data provides archived images of each location prior to disaster, as well as up-to-date imagery of disaster zones collected soon after the onset of major crisis events.
 
 <!--We formulate the task of road extraction from satellite images as a binary classification problem. Each input is a satellite image. The solution is expected to predict a mask for the input (i.e., a binary image of the same height and width as the input with road and non-road pixel labels). (Demir et al. 2018)-->
 
