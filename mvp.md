@@ -30,7 +30,7 @@ Below are a sample of the predicted road maps from the baseline model:
 The annotated images contain ~4.5% road and ~95.5% background pixels, so it will be important to score the model on F1 rather than accuracy, because high accuracy can be achieved by simply assuming that all pixels are background.
 
 After converting the scoring metric to the F1 score, I will continue to improve the model score by:
-1. moving to Google Colab to run on a GPU
+1. moving to Google Colab to run on a GPU,
 2. adding dropout to avoid over fitting,
 3. trying the ELU activation function,
 4. trying different optimizers,
