@@ -9,6 +9,7 @@
 # Ignore data backups
 deep_globe/
 data_backup/
+*.pkl
 
 # Ignore API key files
 kaggle.json
