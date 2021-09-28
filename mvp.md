@@ -22,18 +22,18 @@ Currently, the model is scored on accuracy; however, I am in the process of conv
 
 Below are a sample of the predicted road maps from the baseline model:
 <p float="left" align="center">
-  <img src="figures/predicted_road_map_1347.png" width="500" />
-  <img src="figures/predicted_road_map_3747.png" width="500" />
-  <img src="figures/predicted_road_map_5029.png" width="500" />
+  <img src="figures/predicted_road_map_1347.png" width="800" />
+  <img src="figures/predicted_road_map_3747.png" width="800" />
+  <img src="figures/predicted_road_map_5029.png" width="800" />
 </p>
 
 The annotated images contain ~4.5% road and ~95.5% background pixels, so it will be important to score the model on F1 rather than accuracy, because high accuracy can be achieved by simply assuming that all pixels are background.
 
 After converting the scoring metric to the F1 score, I will continue to improve the model score by:
-0. moving to Google Colab to run on a GPU
-1. adding dropout to avoid over fitting,
-2. trying the ELU activation function,
-3. trying different optimizers,
-4. train for more epochs with early stopping and reduce learning rate
+1. moving to Google Colab to run on a GPU
+2. adding dropout to avoid over fitting,
+3. trying the ELU activation function,
+4. trying different optimizers,
+5. train for more epochs with early stopping and reduce learning rate
 
 Given sufficient time, I will apply this network to images of disaster zones collected before and after the onset of major crisis events.
