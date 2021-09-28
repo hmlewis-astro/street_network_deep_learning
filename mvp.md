@@ -18,7 +18,7 @@ The baseline model is built with a U-Net-like architecture. The model is compose
 
 - The baseline model uses the `adam` optimizer, binary cross-entropy as the loss function, and is scored based on the accuracy.
 
-Currently, the model is scored on accuracy; however, I am in the process of converting the scoring metrics to F1 (standard metric for aerial image segmentation models) and/or mean Intersection over Union (mIOU, metric requested for the DeepGlobe Challenge). With only 5 training epochs, the model achieves an accuracy score of 0.9534 on the validation set (validation set is comprised of 25% of the training set).
+Currently, the model is scored on accuracy; however, I am in the process of converting the scoring metrics to F1 (standard metric for aerial image segmentation models) and/or mean Intersection over Union (mIOU, metric requested for the DeepGlobe Challenge). With only 5 training epochs, the model achieves an accuracy score of 0.9534 on the validation set.
 
 Below are a sample of the predicted road maps from the baseline model:
 <p float="left" align="center">
@@ -34,6 +34,6 @@ After converting the scoring metric to the F1 score, I will continue to improve 
 2. adding dropout to avoid over fitting,
 3. trying the ELU activation function,
 4. trying different optimizers,
-5. train for more epochs with early stopping and reduce learning rate
+5. training for more epochs with early stopping and reduced learning rate on plateau.
 
 Given sufficient time, I will apply this network to images of disaster zones collected before and after the onset of major crisis events.
