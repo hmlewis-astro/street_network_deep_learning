@@ -6,10 +6,11 @@
 *.pyc
 .ipynb_checkpoints/
 
-# Ignore data backups
+# Ignore data backups and notes
 deep_globe/
 data_backup/
 *.pkl
+*_notes.txt
 
 # Ignore API key files
 kaggle.json
