@@ -32,8 +32,8 @@ The annotated images contain ~4.5% road and ~95.5% background pixels, so it will
 After converting the scoring metric to the F1 score, I will continue to improve the model score by:
 1. moving to Google Colab to run on a GPU,
 2. adding dropout to avoid over fitting,
-3. trying the ELU activation function,
-4. trying different optimizers,
+3. trying the ELU/LeakyReLU activation functions,
+4. trying different optimizers (e.g., `RMSprop`, `SGD`),
 5. training for more epochs with early stopping and reduced learning rate on plateau.
 
 Given sufficient time, I will apply this network to images of disaster zones collected before and after the onset of major crisis events.
