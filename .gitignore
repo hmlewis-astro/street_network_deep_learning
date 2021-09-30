@@ -16,5 +16,6 @@ data_backup/
 kaggle.json
 
 # Ignore powerpoint files
+*.pptx
 final_pres/*.pptx
 
