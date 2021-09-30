@@ -9,8 +9,10 @@
 # Ignore data backups and notes
 deep_globe/
 data_backup/
+maxar_data/
 *.pkl
-*_notes.txt
+*.h5
+*.csv
 
 # Ignore API key files
 kaggle.json
