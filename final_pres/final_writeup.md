@@ -57,4 +57,4 @@ Below are satellite images taken before and after the impact of Hurricane Ida, a
 
 ### Communication
 
-In addition to the slides and visuals presented here, this write-up and included visuals will in a forthcoming blog post.
+In addition to the slides and visuals presented here, this write-up and included visuals will be included in a forthcoming blog post.
