@@ -30,8 +30,8 @@ After testing various combinations of optimizers, loss functions, dropout amount
 
 <p float="left" align="center">
   <img src="https://github.com/hmlewis-astro/street_network_deep_learning/blob/main/figures/predicted_road_map_final_model_3448.png" width="800" />
-  <img src="https://github.com/hmlewis-astro/street_network_deep_learning/blob/main/figures/predicted_road_map_final_model_3747.png" width="800" />
-  <img src="https://github.com/hmlewis-astro/street_network_deep_learning/blob/main/figures/predicted_road_map_final_model_5029.png" width="800" />
+  <img src="https://github.com/hmlewis-astro/street_network_deep_learning/blob/main/figures/predicted_road_map_final_model_2066.png" width="800" />
+  <img src="https://github.com/hmlewis-astro/street_network_deep_learning/blob/main/figures/predicted_road_map_final_model_5161.png" width="800" />
 </p>
 
 
