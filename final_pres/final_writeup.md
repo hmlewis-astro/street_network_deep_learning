@@ -29,9 +29,9 @@ The baseline model is built with a U-Net-like architecture, following the exampl
 After testing various combinations of optimizers, loss functions, dropout amounts, etc., the final model includes dropout layers between each convolutional block, and `RMSprop` optimizer is used with the binary cross-entropy loss function. The architecture of the final model can be found [here](https://github.com/hmlewis-astro/street_network_deep_learning/blob/main/unet_final_model_architecture.png). The final model achieves an F1 = 0.690, and performs well on rural and urban landscapes, and varying road surfaces and densities.
 
 <p float="left" align="center">
-  <img src="figures/predicted_road_map_final_model_3448.png" width="800" />
-  <img src="figures/predicted_road_map_final_model_3747.png" width="800" />
-  <img src="figures/predicted_road_map_final_model_5029.png" width="800" />
+  <img src="https://github.com/hmlewis-astro/street_network_deep_learning/blob/main/figures/predicted_road_map_final_model_3448.png" width="800" />
+  <img src="https://github.com/hmlewis-astro/street_network_deep_learning/blob/main/figures/predicted_road_map_final_model_3747.png" width="800" />
+  <img src="https://github.com/hmlewis-astro/street_network_deep_learning/blob/main/figures/predicted_road_map_final_model_5029.png" width="800" />
 </p>
 
 
@@ -41,8 +41,8 @@ I also applied the model to images released by Maxar showing the impact of Hurri
 
 
 <p float="left" align="center">
-  <img src="figures/hurricane_ida_predicted_road_map_final_model_0.png" width="800" />
-  <img src="figures/hurricane_ida_predicted_road_map_final_model_1.png" width="800" />
+  <img src="https://github.com/hmlewis-astro/street_network_deep_learning/blob/main/figures/hurricane_ida_predicted_road_map_final_model_0.png" width="800" />
+  <img src="https://github.com/hmlewis-astro/street_network_deep_learning/blob/main/figures/hurricane_ida_predicted_road_map_final_model_1.png" width="800" />
 </p>
 
 

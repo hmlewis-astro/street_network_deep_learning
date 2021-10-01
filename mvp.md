@@ -22,9 +22,9 @@ Currently, the model is scored on accuracy; however, I am in the process of conv
 
 Below are a sample of the predicted road maps from the baseline model:
 <p float="left" align="center">
-  <img src="figures/predicted_road_map_1347.png" width="800" />
-  <img src="figures/predicted_road_map_3747.png" width="800" />
-  <img src="figures/predicted_road_map_5029.png" width="800" />
+  <img src="https://github.com/hmlewis-astro/street_network_deep_learning/blob/main/figures/predicted_road_map_1347.png" width="800" />
+  <img src="https://github.com/hmlewis-astro/street_network_deep_learning/blob/main/figures/predicted_road_map_3747.png" width="800" />
+  <img src="https://github.com/hmlewis-astro/street_network_deep_learning/blob/main/figures/predicted_road_map_5029.png" width="800" />
 </p>
 
 The annotated images contain ~4.5% road and ~95.5% background pixels, so it will be important to score the model on F1 rather than accuracy, because high accuracy can be achieved by simply assuming that all pixels are background.
