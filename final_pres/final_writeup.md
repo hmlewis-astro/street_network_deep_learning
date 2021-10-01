@@ -40,7 +40,7 @@ Below are a sample of the predicted road maps from the final model, with the sat
 
 I also applied the model to images released by Maxar showing the impact of Hurricane Ida on New Orleans in August 2021. Though only a handful of images are publicly available currently, they show some of the areas most impacted by this event, with significant flooding covering almost all visible land area after the hurricane hit, as shown by the figure below. The model does not identify many (if any) roads in the post-event images, as expected, given that the available images generally show the areas with the worst outcomes from the hurricane.
 
-Below are satellite images taken before and after the impact of Hurricane Ida, along with the predicted road maps from the model presented here. In the first figure, after the impact of the hurricane, no accessible roads are identified by the model; in the second example, the only accessible road identified by the model is a raised bridge.
+Below are satellite images taken before and after the impact of Hurricane Ida, along with the predicted road maps from the model presented here. In the first set of figures, after the impact of the hurricane, no accessible roads are identified by the model; in the second set of figures, the only accessible road identified by the model is a raised bridge.
 
 <p float="left" align="center">
   <img src="https://github.com/hmlewis-astro/street_network_deep_learning/blob/main/figures/hurricane_ida_predicted_road_map_final_model_0.png" width="700" />
