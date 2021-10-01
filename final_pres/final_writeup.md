@@ -28,21 +28,23 @@ The baseline model is built with a U-Net-like architecture, following the exampl
 
 After testing various combinations of optimizers, loss functions, dropout amounts, etc., the final model includes dropout layers between each convolutional block, and `RMSprop` optimizer is used with the binary cross-entropy loss function. The architecture of the final model can be found [here](https://github.com/hmlewis-astro/street_network_deep_learning/blob/main/unet_final_model_architecture.png). The final model achieves an F1 = 0.690, and performs well on rural and urban landscapes, and varying road surfaces and densities.
 
+Below are a sample of the predicted road maps from the final model, with the satellite image on the left, the hand-annotated road map in the center, and the predicted road map on the right:
 <p float="left" align="center">
-  <img src="https://github.com/hmlewis-astro/street_network_deep_learning/blob/main/figures/predicted_road_map_final_model_3448.png" width="800" />
-  <img src="https://github.com/hmlewis-astro/street_network_deep_learning/blob/main/figures/predicted_road_map_final_model_2066.png" width="800" />
-  <img src="https://github.com/hmlewis-astro/street_network_deep_learning/blob/main/figures/predicted_road_map_final_model_5161.png" width="800" />
+  <img src="https://github.com/hmlewis-astro/street_network_deep_learning/blob/main/figures/predicted_road_map_final_model_3448.png" width="700" />
+  <img src="https://github.com/hmlewis-astro/street_network_deep_learning/blob/main/figures/predicted_road_map_final_model_2066.png" width="700" />
+  <img src="https://github.com/hmlewis-astro/street_network_deep_learning/blob/main/figures/predicted_road_map_final_model_5161.png" width="700" />
 </p>
 
 
 #### Application & Visualization
 
-I also applied the model to images released by Maxar showing the impact of Hurricane Ida on New Orleans in August 2021. Though only a handful of images are publicly available currently, they show some of the areas most impacted by this event, with significant flooding covering almost all visible land area after the hurricane hit, as shown by the figure below. Due to significant flooding, the model does not identify any roads in the post-event images, as expected given that the available images generally show the areas with the worst outcomes from the hurricane.
+I also applied the model to images released by Maxar showing the impact of Hurricane Ida on New Orleans in August 2021. Though only a handful of images are publicly available currently, they show some of the areas most impacted by this event, with significant flooding covering almost all visible land area after the hurricane hit, as shown by the figure below. The model does not identify many (if any) roads in the post-event images, as expected, given that the available images generally show the areas with the worst outcomes from the hurricane.
 
+Below are satellite images taken before and after the impact of Hurricane Ida, along with the predicted road maps from the model presented here. In the first figure, after the impact of the hurricane, no accessible roads are identified by the model; in the second example, the only accessible road identified by the model is a raised bridge.
 
 <p float="left" align="center">
-  <img src="https://github.com/hmlewis-astro/street_network_deep_learning/blob/main/figures/hurricane_ida_predicted_road_map_final_model_0.png" width="800" />
-  <img src="https://github.com/hmlewis-astro/street_network_deep_learning/blob/main/figures/hurricane_ida_predicted_road_map_final_model_1.png" width="800" />
+  <img src="https://github.com/hmlewis-astro/street_network_deep_learning/blob/main/figures/hurricane_ida_predicted_road_map_final_model_0.png" width="700" />
+  <img src="https://github.com/hmlewis-astro/street_network_deep_learning/blob/main/figures/hurricane_ida_predicted_road_map_final_model_1.png" width="700" />
 </p>
 
 
