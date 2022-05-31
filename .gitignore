@@ -21,3 +21,7 @@ kaggle.json
 *.pptx
 final_pres/*.pptx
 
+# Ignore old README version
+README_old.md
+
+
